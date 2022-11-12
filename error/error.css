@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu&display=swap');
+
+body{
+    background-image: url(images/bgImage.png);
+    font-family: 'Montserrat-Black', sans-serif;
+    color: white;
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    margin: 20% auto 8% auto;
+    font-size: 10rem;
+    line-height: 5px;
+}
+h2{
+    text-align: center;
+    font-weight: lighter;
+
+}

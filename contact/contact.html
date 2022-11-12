@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="contact.css">
+  <title>contact-me</title>
+</head>
+<body>
+  <div class="background">
+    <div class="container">
+      <div class="screen">
+        <div class="screen-body">
+          <div class="screen-body-item left">
+            <div class="app-title">
+              <span>CONTACT</span>
+              <span>US</span>
+            </div>
+            <div class="app-contact">CONTACT INFO : +91 7489061499</div>
+          </div>
+          <div class="screen-body-item">
+            <form class="app-form" onsubmit="mailSend(); reset(); return false">
+              <div class="app-form-group">
+                <input type="text" class="app-form-control" id="name" placeholder="NAME" value="Shivam Kumar">
+              </div>
+              <div class="app-form-group">
+                <input type="email" class="app-form-control" id="mail" placeholder="EMAIL">
+              </div>
+              <div class="app-form-group">
+                <input type="text" class="app-form-control" id="contactNo" placeholder="CONTACT NO">
+              </div>
+              <div class="app-form-group message">
+                <input type="text" class="app-form-control" id="message" placeholder="MESSAGE">
+              </div>
+              <div class="app-form-group buttons">
+                <button class="app-form-button" type="reset">CANCEL</button>
+                <button class="app-form-button" type="submit">SEND</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script src="contact.js"></script>
+</body>
+</html>
+

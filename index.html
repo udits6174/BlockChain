@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>SKWATER.com</title>
+  <link rel="shortcut icon" href="images/favicon_io/favicon.ico" type="image/x-icon">
+  <!-- THE Bootstrap mdn must be before your own css -->
+  <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="styles.css">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/2c6cc58a2c.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <section id="title">
+    <!-- Nav Bar -->
+    <div class="row container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="">Skwater</a>
+        <!--
+        Use hashtag in data-bs-target as we are referring to an id.
+        the #target is nothing but just an id(not defined in Bootstrap css)
+      -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#target"
+          aria-controls="#target" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="target">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="About/index.html" target="_blank">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact/contact.html" target=”_blank”>CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+
+    <!-- Title -->
+    <div class="row container-fluid">
+      <div class="col-lg-6 col-md-12">
+        <h1>RO purified water at your doorstep.</h1>
+        <a href="error/error.html" class="btn btn-outline-light btn-lg downloadBtn">
+          <span class="fa-brands fa-google-play"></span> Download
+        </a>
+        <a href="error/error.html" class="btn btn-dark btn-lg downloadBtn">
+          <span class="fa-brands fa-apple"></span> Download
+        </a>
+      </div>
+      <div class="col-lg-6 col-md-12">
+        <img class="gallonImage" src="images/gallon.png" alt="waterGallon-mockup">
+      </div>
+  </section>
+
+
+  <!-- Features -->
+
+  <section id="features">
+    <div class="row">
+      <div class="col-md-4 col-sm-12">
+        <span class="midIcon">
+          <i class="fa-solid fa-circle-check"></i>
+        </span>
+        <h3>Easily Accessible.</h3>
+        <p>Just join the whatsapp group.</p>
+      </div>
+      <div class="col-md-4 col-sm-12">
+        <span class="midIcon">
+          <i class="fa-solid fa-bullseye"></i>
+        </span>
+        <h3>Payment Flexibility</h3>
+        <p>Pay monthly/on delivery as per convenience.</p>
+      </div>
+      <div class="col-md-4 col-sm-12">
+        <span class="midIcon">
+          <i class="fa-solid fa-heart"></i>
+        </span>
+        <h3>Trusted By All.</h3>
+        <p>With over 500+ customers in ISM</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section id="testimonials">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+        
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2 class="testimonial-text">The TDS index is optimum.The taste of water is not too much mineralised.</h2>
+          <img class="testimonial-img" src="images/Bishalpfp.jpg" alt="Bishal-profile">
+          <em>Bishal Saha</em>
+          <em>B-339, Jasper</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text">One day delivery is a life saver. I'll be sick from Hostel water in a day.</h2>
+          <img class="testimonial-img" src="images/Ujjwalpfp.jpg" alt="Ujjwal-profile">
+          <em>Ujjwal Tiwari</em>
+          <em>B-149,Jasper</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text">Seeing algae in so called purifiers, Sk RO water is must in hostels.</h2>
+          <img class="testimonial-img" src="images/Jeetpfp.jpg" alt="Jeet-profile">
+          <em>Jeet Rathod</em>
+          <em>B-155,Jasper</em>
+        </div>
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+  </section>
+
+
+  <!-- Press -->
+
+  <section id="press">
+    <img class="pressImg" src="images/bizinsider.png" alt="biz-insider-logo">
+    <img class="pressImg-jklogo" src="images/JharkhandLogo.png" alt="Jharkhand-logo">
+    <img class="pressImg" src="images/mashable.png" alt="mashable-logo">
+
+  </section>
+
+
+  <!-- Pricing -->
+  <section id="pricing">
+    <div id="price">
+      <p >Simple and affordable price plans for you and you wallet.</p>
+    </div>
+    
+  <div class="demo">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-sm-12">
+          <div class="pricingTable">
+            <div class="pricingTable-header">
+              <i class="fa fa-adjust"></i>
+              <div class="price-value"> ₹35/- <span class="month">per order</span> </div>
+            </div>
+            <h3 class="heading">RETAIL</h3>
+            <div class="pricing-content">
+              <ul>
+                <li> Room Delivery </li>
+                <li> 1-day Delivery</li>
+                <li> Postpaid</li>
+
+              </ul>
+            </div>
+            <div class="pricingTable-signup">
+              <a href="#">sign up</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-12">
+          <div class="pricingTable green">
+            <div class="pricingTable-header">
+              <i class="fa fa-life-ring" aria-hidden="true"></i>
+              <div class="price-value"> ₹250/- <span class="month">per month</span> </div>
+            </div>
+            <h3 class="heading">MONTHLY</h3>
+            <div class="pricing-content">
+              <ul>
+                <li> Room Delivery</li>
+                <li> 1-day Delivery <span class="check"><i class="fa fa-check-square" aria-hidden="true"></i></span></li>
+                <li> Postpaid <span class="check"><i class="fa fa-check-square" aria-hidden="true"></i></span></li>
+              </ul>
+            </div>
+            <div class="pricingTable-signup">
+              <a href="#">sign up</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12">
+          <div class="pricingTable blue">
+            <div class="pricingTable-header">
+              <i class="fa fa-diamond"></i>
+              <div class="price-value"> ₹3000/- <span class="month">per year</span> </div>
+            </div>
+            <h3 class="heading">ANNUAL</h3>
+            <div class="pricing-content">
+              <ul>
+                <li> Room Delivery <span class="check"><i class="fa fa-check-square" aria-hidden="true"></i></span></li>
+                <li> 1-day Delivery <span class="check"><i class="fa fa-check-square" aria-hidden="true"></i></span></li>
+                <li> Postpaid <span class="check"><i class="fa fa-check-square" aria-hidden="true"></i></span></li>
+              </ul>
+            </div>
+            <div class="pricingTable-signup">
+              <a href="#">sign up</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Call to Action -->
+
+  <section id="cta">
+    <h1>Get rid of unpurified hostel water Today.</h1>
+    <a href="error/error.html" class="btn btn-outline-light btn-lg downloadBtn">
+      <span class="fa-brands fa-google-play"></span> Download
+    </a>
+    <a href="error/error.html" class="btn btn-dark btn-lg downloadBtn">
+      <span class="fa-brands fa-apple"></span> Download
+    </a>
+
+  </section>
+
+  </div>
+  <!-- Footer -->
+
+  <footer id="footer">
+    <a href="https://chat.whatsapp.com/KOO7iCIBYAHAiEdboPRadS" class="fa-brands fa-whatsapp social"></a>
+    <a href="https://www.facebook.com/profile.php?id=100004656259468" class="fa-brands fa-facebook-f social"></a>
+    <a href="https://instagram.com/ud.it_is?igshid=YmMyMTA2M2Y=" class="fa-brands fa-instagram social"></a>
+    <a href="contact/contact.html" target=”_blank” class="fa-solid fa-envelope social"></a>
+    <p id="Copyright">© Copyright 2022 Skwatersupply</p>
+
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+    integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+    crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>

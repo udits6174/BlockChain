@@ -1,0 +1,130 @@
+
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    background-color: #c0d6df;
+}
+h1{
+    color: #256D85;
+    line-height: 2;
+    margin-top: 50px auto 0 auto;
+    font-size: 6rem;
+    font-family: 'Sacramento', cursive;
+    margin: 0 auto;
+}
+h2{
+    color: #256D85;
+    font-size: 2.5rem;
+    font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+}
+.myskills{
+    padding-top: 50px;
+    padding-bottom: 0%;
+    margin: 0%;
+}
+h3{
+    font-size: 2rem;
+    color: #0078AA;
+}
+.bye{
+    font-size: 1.5rem;
+    color: #0078AA;
+}
+
+hr{
+    border: 5px dotted #eaf6f6;
+    border-width: 5px 0 0 0;
+    width: 8%;
+}
+a{
+    color: #d5f3fe;
+}
+
+.top-container{
+    margin: 0;
+    background-color: #8CC0DE;
+    position: relative;
+    padding-top: 100px;
+    text-align: center;
+}
+.top-cloud{
+    height: 100px;
+    width: 150px;
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+.bottom-cloud{
+    height: 100px;
+    width: 150px;
+    position: absolute;
+    left: 300px;
+}
+.middle-container{
+    background-color: #c0d6df;
+}
+.skill-row{
+    width: 50%;
+    margin: 6em auto;
+    line-height: 2;
+    text-align: left;
+}
+.code-img{
+    float: left;
+    margin-right: 30px;
+    width: 20%;
+}
+.chillies-img{
+    margin: 30px;
+    float: right;
+    width: 20%;
+}
+.camera-img{
+    margin-right: 30px;
+    float: left;
+    width: 20%;
+}
+.bottom-container{
+    text-align: center;
+    position: relative;
+    background-color: #035b96;
+    color: #EAF6F6;
+    padding: 50px;
+}
+.pfp{
+    padding-top: 50px;
+    margin: 30px;
+    height: 180px;
+    width: 180px;
+}
+.baristaD{
+    margin-top: 0px;
+}
+.baristaU{
+    margin-bottom: 0px;
+}
+.btn {
+    background: #11cdd4;
+    background-image: linear-gradient(to bottom, #0489e2, #035b96);
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 17px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background:  #30e3cb;
+    background-image: linear-gradient(to bottom,  #4d94ae, #2b5261);
+    text-decoration: none;
+  }
+  #button{
+    margin: 50px auto 30px auto;
+  }
+  .link{
+    margin: auto 20px;
+  }

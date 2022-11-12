@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap');
+body {
+    font-family: 'Montserrat-Black', sans-serif;
+    background-color: aliceblue;
+}
+
+#title {
+    color: aliceblue;
+    background-image: linear-gradient(#070069, #94cff3);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-family: 'Montserrat-Bold', sans-serif;
+}
+
+.container-fluid {
+    padding: 0 15% 5% 15%;
+}
+
+/* Navigation Bar */
+.navbar {
+    margin: 25px auto 100px auto;
+    padding: 5px 0;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.nav-item {
+    padding: 0 15px;
+}
+
+.nav-link {
+    font-family: 'Montserrat';
+    font-size: 1.2rem;
+}
+
+/* Download buttons */
+.downloadBtn {
+    margin: auto 20px 20px 20px;
+}
+
+/* Gallon image */
+.gallonImage {
+    width: 110%;
+}
+
+/* features */
+#features {
+    text-align: center;
+    margin: 50px auto;
+    background-color: aliceblue;
+}
+
+.midIcon {
+    font-size: 3rem;
+    line-height: 1.5;
+    color: #0779c6;
+}
+
+.midIcon:hover {
+    color: #4e83a5;
+}
+
+/* testimonials section */
+.carousel-item {
+    padding: 5% 15%;
+}
+
+#testimonials {
+    background-color: #94cff3;
+    text-align: center;
+    color: #236c8b;
+}
+
+.testimonial-img {
+    width: 10%;
+    margin: 20px;
+    border-radius: 100%;
+}
+
+.testimonial-text {
+    font-weight: 600;
+    color: #fff;
+}
+
+#press {
+    background-color: #94cff3;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.pressImg {
+    width: 15%;
+    padding: 5px;
+}
+
+.pressImg-jklogo {
+    width: 10%;
+    padding: 5px;
+}
+
+/* Pricing & Cards */
+.demo {
+    margin: 100px auto;
+}
+
+a {
+    text-decoration: none;
+}
+.fa.fa-check-square{
+    position: relative;
+    right: 2px;
+}
+#price p{
+    font-family: 'EB Garamond', serif;
+    color: #12445a;
+    font-size: 2.5rem;
+}
+#price{
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 50px;
+    text-align: center;
+}
+.pricingTable {
+    text-align: center;
+    background: #fff;
+    margin: 0 -15px;
+    box-shadow: 0 0 10px #ababab;
+    padding-bottom: 40px;
+    border-radius: 10px;
+    color: #cad0de;
+    transform: scale(1);
+    transition: all .5s ease 0s
+}
+
+.pricingTable:hover {
+    transform: scale(1.05);
+    z-index: 1
+}
+
+.pricingTable .pricingTable-header {
+    padding: 40px 0;
+    background: #f5f6f9;
+    border-radius: 10px 10px 50% 50%;
+    transition: all .5s ease 0s
+}
+
+.pricingTable:hover .pricingTable-header {
+    background: #0093AB
+}
+
+.pricingTable .pricingTable-header i {
+    font-size: 50px;
+    color: #858c9a;
+    margin-bottom: 10px;
+    transition: all .5s ease 0s
+}
+
+.pricingTable .price-value {
+    font-size: 35px;
+    color: #0093AB;
+    transition: all .5s ease 0s
+}
+
+.pricingTable .month {
+    display: block;
+    font-size: 14px;
+    color: #cad0de
+}
+
+.pricingTable:hover .month,
+.pricingTable:hover .price-value,
+.pricingTable:hover .pricingTable-header i {
+    color: #fff
+}
+
+.pricingTable .heading {
+    font-size: 24px;
+    color: #0093AB;
+    margin-bottom: 20px;
+    text-transform: uppercase
+}
+
+.pricingTable .pricing-content ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 30px
+}
+
+.pricingTable .pricing-content ul li {
+    line-height: 30px;
+    color: #a7a8aa
+}
+
+.pricingTable .pricingTable-signup a {
+    display: inline-block;
+    font-size: 15px;
+    color: #fff;
+    padding: 10px 35px;
+    border-radius: 20px;
+    background: #0093AB;
+    text-transform: uppercase;
+    transition: all .3s ease 0s
+}
+
+.pricingTable .pricingTable-signup a:hover {
+    box-shadow: 0 0 10px #0093AB
+}
+
+.pricingTable.blue .heading,
+.pricingTable.blue .price-value {
+    color: #0093AB
+}
+
+.pricingTable.blue .pricingTable-signup a,
+.pricingTable.blue:hover .pricingTable-header {
+    background: #0093AB
+}
+
+.pricingTable.blue .pricingTable-signup a:hover {
+    box-shadow: 0 0 10px #0093AB
+}
+
+.pricingTable.green .heading,
+.pricingTable.green .price-value {
+    color: #12445a
+}
+
+.pricingTable.green .pricingTable-signup a,
+.pricingTable.green:hover .pricingTable-header {
+    background: #12445a
+}
+
+.pricingTable.green .pricingTable-signup a:hover {
+    box-shadow: 0 0 10px #12445a
+}
+
+.pricingTable.blue:hover .price-value,
+.pricingTable.green:hover .price-value,
+.pricingTable.red:hover .price-value {
+    color: #fff
+}
+
+@media screen and (max-width:990px) {
+    .pricingTable {
+        margin: 0 0 20px
+    }
+}
+
+/* FOOTER */
+#cta {
+    background-color: #94cff3;
+    text-align: center;
+    color: #fff;
+    padding: 5% 15%;
+}
+
+#footer {
+    text-align: center;
+    background-color: #fff;
+    padding: 5% 15%;
+}
+
+.social {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+
+#Copyright {
+    padding: 2%;
+    color: #616161;
+}
